@@ -1,7 +1,14 @@
-Flask App with CI/CD Pipeline
-This project sets up a simple Flask application with a continuous integration/continuous deployment (CI/CD) pipeline using GitHub Actions. The pipeline runs tests on every push or pull request to the main branch.
+# Flask App with CI/CD Pipeline
 
-Features
-Flask app setup with basic functionality.
-GitHub Actions for running tests automatically using pytest.
-Easy deployment setup for scalable environments.
+This repository demonstrates how to set up a Flask app with a CI/CD pipeline using GitHub Actions. The pipeline automatically runs tests using `pytest` on every push or pull request to the `main` branch.
+
+## Features
+- Basic Flask application
+- Automated testing with `pytest`
+- CI/CD setup using GitHub Actions
+
+## Setup Instructions
+1. Clone this repository.
+2. Set up a Python environment and install dependencies:
+   ```bash
+   pip install -r requirements.txt
